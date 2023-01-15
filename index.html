@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title></title>
 
@@ -28,10 +28,8 @@
         box-sizing: border-box;
     }
 
-        .flex-container{
-        display:flex;
-        }
-        
+
+
     /* Position the navbar container inside the image */
     .container {
         position: absolute;
@@ -73,6 +71,12 @@
     img:hover {
         box-shadow: 0 0 25px 1px rgba(0, 140, 186, 0.5);
     }
+
+    @media(max-width:500px) {
+        .flex-container {
+            display: flex;
+        }
+    }
     </style>
 </head>
 
@@ -91,20 +95,21 @@
         </div>
     </div>
     <div class="flex-container">
-    <div>
-        <img src="book1.jpg" style="width:250px; margin-top: 120px;">
-        <img src="book2.jpg" style="width:250px; margin-top: 120px; ">
-        <img src="book3.jpg" style="width:250px; margin-top: 120px;">
-        <img src="book4.jpg" style="width:250px; margin-top: 120px;">
-        <img src="book5.jpg" style="width:250px; margin-top: 120px;">
+        <div>
+            <img src="book1.jpg" style="width:250px; margin-top: 120px;">
+            <img src="book2.jpg" style="width:250px; margin-top: 120px; ">
+            <img src="book3.jpg" style="width:250px; margin-top: 120px;">
+            <img src="book4.jpg" style="width:250px; margin-top: 120px;">
+            <img src="book5.jpg" style="width:250px; margin-top: 120px;">
+        </div>
+        <div>
+            <img src="book6.jpg" style="width:250px; margin-top: 120px;">
+            <img src="book7.jpg" style="width:250px; margin-top: 120px;">
+            <img src="book8.jpg" style="width:250px; margin-top: 120px;">
+            <img src="book9.jpg" style="width:250px; margin-top: 120px;">
+            <img src="book10.jpg" style="width:250px; margin-top: 120px;">
+        </div>
     </div>
-    <div class="one">
-        <img src="book6.jpg" style="width:250px; margin-top: 120px;">
-        <img src="book7.jpg" style="width:250px; margin-top: 120px;">
-        <img src="book8.jpg" style="width:250px; margin-top: 120px;">
-        <img src="book9.jpg" style="width:250px; margin-top: 120px;">
-        <img src="book10.jpg" style="width:250px; margin-top: 120px;">
-        </div></div>
     <footer>
         <h5>the website belongs to a private company</h5>
         <p>Copyright &copy; Rishi Roushan</p>
